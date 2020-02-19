@@ -9,5 +9,6 @@ hist(
   col = "red"
   )
 
+# Copy plot to png device
 dev.copy(png,filename = "plot1.png", width = 480, height = 480, units = "px")
 dev.off(which = dev.cur())
