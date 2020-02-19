@@ -2,3 +2,4 @@
 df <- read.table("data/household_power_consumption.txt", header = TRUE, sep = ";",
                  na.strings = "?", stringsAsFactors = FALSE)
 df_subset <- subset(df, Date == "1/2/2007" | Date == "2/2/2007")
+rm(df)
